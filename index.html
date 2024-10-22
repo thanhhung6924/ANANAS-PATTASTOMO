@@ -7,6 +7,19 @@
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <!-- style css -->
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- gsap.min.js -->
+    <script src="./ScrollTrigger.min.js"></script>
+    <!-- scrollTrigger -->
+    <script src="./gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
+    <!-- font awe -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- font style -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -127,7 +140,6 @@
       </div>
       <div class="gray__line"></div>
       <div class="wrap__banner">
-       
         <img
           src="./assets/img/IMG transition 2.jpeg"
           alt=""
@@ -138,13 +150,93 @@
           alt=""
           class="img__transition transition2"
         />
-      
       </div>
-      
     </header>
-    <div class="content-test ">
-        <div class="shadow"></div>
-        <p>Khám phá bộ sưu tập giày Pattas Tomo của Ananas - nơi hội tụ giữa phong cách hiện đại và sự thoải mái tối ưu. Dòng sản phẩm này được thiết kế dành riêng cho những ai yêu thích sự năng động nhưng vẫn muốn thể hiện cá tính riêng. Với chất liệu cao cấp và thiết kế tinh tế, Pattas Tomo không chỉ mang lại sự thoải mái khi di chuyển mà còn giúp bạn nổi bật mọi lúc mọi nơi.</p>
+    <div class="main-content">
+      <div class="shadow"></div>
+      <hr style="width: 80%; height: 3px; color: #fffce1; margin-top: 50px" />
+      <div class="container">
+        <div class="intro">
+          <h2 class="intro__heading" data-value="PATTASTOMO">ANANAS</h2>
+          <div class="intro__bottom">
+            <div class="intro--content__left">
+              <h2 class="intro__title heading">Có gì mới?</h2>
+              <p class="intro__description desc">
+                Khám phá bộ sưu tập giày Pattas Tomo của Ananas - nơi hội tụ
+                giữa phong cách hiện đại và sự thoải mái tối ưu. Dòng sản phẩm
+                này được thiết kế dành riêng cho những ai yêu thích sự năng động
+                nhưng vẫn muốn thể hiện cá tính riêng. Với chất liệu cao cấp và
+                thiết kế tinh tế, Pattas Tomo không chỉ mang lại sự thoải mái
+                khi di chuyển mà còn giúp bạn nổi bật mọi lúc mọi nơi.
+              </p>
+              <a href="" class="btn btn__intro">Tìm hiểu thêm</a>
+            </div>
+            <img src="./assets/img/intro img.jpg" alt="" class="intro__img" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="outer">
+      <div class="slider">
+        <section>
+          <div class="inner">
+            <img
+              src="./assets/img/giayxanh.png"
+              alt=""
+              class="imgz__shoe shoe__blue"
+            />
+            <div class="shoe__content">
+              <h2 class="shoe__title">Giày xanh</h2>
+              <p class="shoe__description">
+                Giày xanh Pattas Tomo với chất liệu cao cấp và thiết kế tinh tế.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="inner">
+            <img
+              src="./assets/img/giayvangvangvang.png"
+              alt=""
+              class="imgz__shoe yellow__blue"
+            />
+            <div class="shoe__content">
+              <h2 class="shoe__title">Giày xanh</h2>
+              <p class="shoe__description">
+                Giày xanh Pattas Tomo với chất liệu cao cấp và thiết kế tinh tế.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="inner">
+            <img
+              src="./assets/img/giaytrang2.png"
+              alt=""
+              class="imgz__shoe white__blue"
+            />
+            <div class="shoe__content">
+              <h2 class="shoe__title">Giày xanh</h2>
+              <p class="shoe__description">
+                Giày xanh Pattas Tomo với chất liệu cao cấp và thiết kế tinh tế.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="shoe-container">
+      <i class="fa-solid fa-shoe-prints img__shoe" data-distance="80"></i>
+<i class="fa-solid fa-shoe-prints img__shoe" data-distance="250"></i>
+<i class="fa-solid fa-shoe-prints img__shoe" data-distance="300"></i>
+<i class="fa-solid fa-shoe-prints img__shoe" data-distance="140"></i>
+<i class="fa-solid fa-shoe-prints img__shoe" data-distance="230"></i>
+<i class="fa-solid fa-shoe-prints img__shoe" data-distance="210"></i>
+<i class="fa-solid fa-shoe-prints img__shoe" data-distance="303"></i>
+<i class="fa-solid fa-shoe-prints img__shoe" data-distance="155"></i>
+<i class="fa-solid fa-shoe-prints img__shoe" data-distance="538"></i>
+<i class="fa-solid fa-shoe-prints img__shoe" data-distance="97"></i>
+<i class="fa-solid fa-shoe-prints img__shoe" data-distance="33"></i>
     </div>
     <script src="./App.js"></script>
   </body>
