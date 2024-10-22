@@ -107,3 +107,89 @@ function raf(time) {
   requestAnimationFrame(raf);
 }
 requestAnimationFrame(raf);
+
+///////////////////////
+gsap.from(".img__svg5", {
+  x: 600,
+  
+  scale: 0.2,
+  duration: 0.5,
+  rotate:360,
+  scrollTrigger: {
+    trigger: ".img__svg5",
+    start: "top bottom", // Khi phần tử .cloud bắt đầu vào view
+    end: "bottom top", // Khi phần tử .cloud rời khỏi view
+    toggleActions: "play reverse play reverse", // Các hành động khi scroll
+    // scrub: true, // Làm mượt chuyển động khi cuộn
+  },
+});
+gsap.from(".img__svg1", {
+  x: 80,
+  y:-200,
+  
+  scale: 0,
+  rotate:-180,
+  duration: 0.4,
+  delay:0.5,
+ 
+  scrollTrigger: {
+    trigger: ".img__svg5",
+    start: "top bottom", // Khi phần tử .cloud bắt đầu vào view
+    end: "bottom top", // Khi phần tử .cloud rời khỏi view
+    toggleActions: "play reverse play reverse", // Các hành động khi scroll
+    // scrub: true, // Làm mượt chuyển động khi cuộn
+  },
+});
+gsap.from(".img__svg2", {
+  x: 350,
+  y:60,
+  
+  scale: 0,
+  rotate:-180,
+  duration: 1,
+  delay:0.8,
+  ease: "elastic.out(3, 5)",
+ 
+  scrollTrigger: {
+    trigger: ".img__svg5",
+    start: "top bottom", // Khi phần tử .cloud bắt đầu vào view
+    end: "bottom top", // Khi phần tử .cloud rời khỏi view
+    toggleActions: "play reverse none none",// Các hành động khi scroll
+    // scrub: true, // Làm mượt chuyển động khi cuộn
+  },
+});
+gsap.from(".img__svg3", {
+  x: 350,
+  y:-60,
+  
+  scale: 0,
+  rotate:-180,
+  duration: 0.3,
+  delay:0.4,
+ 
+  scrollTrigger: {
+    trigger: ".img__svg5",
+    start: "top bottom", // Khi phần tử .cloud bắt đầu vào view
+    end: "bottom top", // Khi phần tử .cloud rời khỏi view
+    toggleActions: "play reverse play reverse", // Các hành động khi scroll
+    // scrub: true, // Làm mượt chuyển động khi cuộn
+  },
+});
+gsap.from(".img__svg4", {
+  x: 2,
+  y:200,
+  
+  scale: 0,
+  rotate:-340,
+  duration: 1,
+  delay:0.7,
+ 
+  scrollTrigger: {
+    trigger: ".img__svg5",
+    start: "top bottom", // Khi phần tử .cloud bắt đầu vào view
+    end: "bottom top", // Khi phần tử .cloud rời khỏi view
+    toggleActions: "play reverse play reverse", // Các hành động khi scroll
+    // scrub: true, // Làm mượt chuyển động khi cuộn
+  },
+});
+

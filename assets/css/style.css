@@ -11,7 +11,7 @@ html {
 body {
   overflow-x: hidden;
   font-size: 1.6rem;
-  background-color:#0e100f;
+  background-color: #0e100f;
   font-family: "Oswald", sans-serif;
 }
 .container {
@@ -156,6 +156,99 @@ body {
   bottom: 0;
   left: 5%;
 }
+
+.second-main {
+  background-color: #0e100f;
+  z-index: 10;
+  height: 100vh;
+ 
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.wrap__banner2{
+  position: relative;
+  height: 200px;
+
+ 
+  
+}
+.desc__second{
+  color: #fffce1;
+  font-size: 4rem;
+  padding: 2rem;
+}
+.second-content__left{
+  display: flex;
+  flex-direction: column;
+padding-top: 100px;
+  width: 45%;
+  height: 80%;
+  
+}
+.second-content__right{
+  position: relative;
+  width: 55%;
+  height: 100%;
+}
+.img__svg1{
+  width: 500px;
+  bottom: 0;
+  right: 100px;
+}
+.img__svg2{
+  width: 150px;
+  bottom: 310px;
+  right: 420px;
+}
+.img__svg3{
+  width: 50px;
+  bottom: 200px;
+  right: 550px;
+}
+.img__svg4{
+  width: 50px;
+  bottom: 450px;
+  right: 200px;
+}
+.img__svg5{
+  width: 220px;
+  bottom: 166px;
+  right: 76px;
+}
+.img__second{
+  position: absolute;
+}
+.banner {
+  height: 60px;
+  width: 400px;
+  padding: 20px 30px;
+  background-color:#FF8709;
+  display: flex;
+  font-size: 2.8rem;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.banner__first{
+  position: absolute;
+  right: 100px;
+  width: 250px;
+  height: 50px;
+  top: 10px;
+  z-index: 1;
+  background-color: #FEC5FB;
+  box-shadow: -25px 20px 1px rgba(0, 0, 0, 0.449);
+}
+.banner__second{
+  position: absolute;
+  right: 150px;
+  z-index: 0;
+  top: 50px;
+ 
+}
 /* 
 
 
@@ -194,7 +287,7 @@ section {
   font-size: 2.4rem;
   font-weight: 400;
 }
-.shoe__blue{
+.shoe__blue {
   transform: translateY(-170px);
 }
 .imgz__shoe {
@@ -229,7 +322,7 @@ section {
 .img__shoe {
   position: absolute;
   opacity: 0.1;
-  transform: scale(0.3) rotateY(180deg) ;
+  transform: scale(0.3) rotateY(180deg);
 }
 
 .img__shoe:nth-of-type(1) {
@@ -291,7 +384,7 @@ section {
 .img__shoe {
   width: 100px;
 }
-.img__shoe{
+.img__shoe {
   font-size: 20rem;
   color: #fffce1;
   /* transform: rotateX(-180deg); */
